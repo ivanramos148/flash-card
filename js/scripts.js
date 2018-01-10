@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("h2.javascript").click(function() {
       $("h2.javascript").hide();
-      $("p.javascript").show();
+      $("p.javascript").fadeToggle();
     });
   $("p.javascript").click(function() {
       $("p.javascript").hide();
@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
   $("h2.operators").click(function() {
       $("h2.operators").hide();
-      $("p.operators").show();
+      $("p.operators").fadeToggle();
     });
   $("p.operators").click(function() {
       $("p.operators").hide();
@@ -17,7 +17,7 @@ $(document).ready(function() {
     });
   $("h2.variables").click(function() {
       $("h2.variables").hide();
-      $("p.variables").show();
+      $("p.variables").fadeToggle();
     });
   $("p.variables").click(function() {
       $("p.variables").hide();
@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
   $("h2.vnc").click(function() {
       $("h2.vnc").hide();
-      $("p.vnc").show();
+      $("p.vnc").fadeToggle();
     });
   $("p.vnc").click(function() {
       $("p.vnc").hide();
@@ -33,7 +33,7 @@ $(document).ready(function() {
     });
   $("h2.functions").click(function() {
       $("h2.functions").hide();
-      $("p.functions").show();
+      $("p.functions").fadeToggle();
     });
   $("p.functions").click(function() {
       $("p.functions").hide();
@@ -41,7 +41,7 @@ $(document).ready(function() {
     });
   $("h2.methods").click(function() {
       $("h2.methods").hide();
-      $("p.methods").show();
+      $("p.methods").fadeToggle();
     });
   $("p.methods").click(function() {
       $("p.methods").hide();
@@ -49,7 +49,7 @@ $(document).ready(function() {
     });
   $("h2.arguments").click(function() {
       $("h2.arguments").hide();
-      $("p.arguments").show();
+      $("p.arguments").fadeToggle();
     });
   $("p.arguments").click(function() {
       $("p.arguments").hide();
@@ -57,7 +57,7 @@ $(document).ready(function() {
     });
   $("h2.parameters").click(function() {
       $("h2.parameters").hide();
-      $("p.parameters").show();
+      $("p.parameters").fadeToggle();
     });
   $("p.parameters").click(function() {
       $("p.parameters").hide();
@@ -65,7 +65,7 @@ $(document).ready(function() {
     });
   $("h2.return").click(function() {
       $("h2.return").hide();
-      $("p.return").show();
+      $("p.return").fadeToggle();
     });
   $("p.return").click(function() {
       $("p.return").hide();
@@ -73,7 +73,7 @@ $(document).ready(function() {
     });
   $("h2.chaining").click(function() {
       $("h2.chaining").hide();
-      $("p.chaining").show();
+      $("p.chaining").fadeToggle();
     });
   $("p.chaining").click(function() {
       $("p.chaining").hide();
@@ -81,7 +81,7 @@ $(document).ready(function() {
     });
   $("h2.strings").click(function() {
       $("h2.strings").hide();
-      $("p.strings").show();
+      $("p.strings").fadeToggle();
     });
   $("p.strings").click(function() {
       $("p.strings").hide();
@@ -89,7 +89,7 @@ $(document).ready(function() {
     });
   $("h2.booleans").click(function() {
       $("h2.booleans").hide();
-      $("p.booleans").show();
+      $("p.booleans").fadeToggle();
     });
   $("p.booleans").click(function() {
       $("p.booleans").hide();
@@ -97,7 +97,7 @@ $(document).ready(function() {
     });
   $("h2.undefined").click(function() {
       $("h2.undefined").hide();
-      $("p.undefined").show();
+      $("p.undefined").fadeToggle();
     });
   $("p.undefined").click(function() {
       $("p.undefined").hide();
@@ -105,7 +105,7 @@ $(document).ready(function() {
     });
   $("h2.nan").click(function() {
       $("h2.nan").hide();
-      $("p.nan").show();
+      $("p.nan").fadeToggle();
     });
   $("p.nan").click(function() {
       $("p.nan").hide();
@@ -113,7 +113,7 @@ $(document).ready(function() {
     });
   $("h2.comments").click(function() {
       $("h2.comments").hide();
-      $("p.comments").show();
+      $("p.comments").fadeToggle();
     });
   $("p.comments").click(function() {
       $("p.comments").hide();
